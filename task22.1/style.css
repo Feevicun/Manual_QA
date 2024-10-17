@@ -1,0 +1,114 @@
+/* Загальні стилі для сторінок */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Стилі для заголовка */
+#main-header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+.title {
+    margin: 0;
+}
+
+/* Стилі для навігації */
+#main-nav {
+    background-color: #333;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    padding: 0.5em 1em;
+    display: block;
+}
+
+.nav-link:hover {
+    background-color: #4CAF50;
+}
+
+/* Стилі для основного контенту */
+#content {
+    padding: 2em;
+}
+
+.subtitle {
+    font-size: 1.5em;
+    color: #4CAF50;
+}
+
+#about-me, #quick-facts, #contact-info, #gallery-section {
+    margin: 2em 0;
+    text-align: center;
+}
+
+/* Стилі для сторінки "Контакти" */
+#contact-page #contact-info {
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    padding: 1.5em;
+    max-width: 600px;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-details {
+    font-size: 1.2em;
+}
+
+.contact-link {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+.contact-link:hover {
+    text-decoration: underline;
+}
+
+/* Стилі для сторінки "Галерея" */
+#gallery-page #gallery-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2em;
+}
+
+.gallery-item {
+    width: 300px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Стилі для нижнього колонтитулу */
+#main-footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
